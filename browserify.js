@@ -1,0 +1,1 @@
+ALLEX.execSuite.libRegistry.register('allex_angular1datatablelib',require('./libindex')(ALLEX, ALLEX.execSuite.libRegistry.get('allex_applib'), ALLEX.execSuite.libRegistry.get('allex_jqueryelementslib'), ALLEX.execSuite.libRegistry.get('allex_angular1elementslib')));

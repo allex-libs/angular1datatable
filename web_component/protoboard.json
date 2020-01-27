@@ -1,0 +1,17 @@
+{
+  "browserify": {
+    "dist/browserified.js":"../browserify.js"
+  },
+  "exclude": {
+    "jshint": [
+      "browserified.js"
+    ]
+  },
+  "dependencies": {
+    "js": ["allex:nggrid:webcomponent"]
+  },
+  "protoboard": {
+    "role":"web_component",
+    "js_doc_filters": "^(src)"
+  }
+}
